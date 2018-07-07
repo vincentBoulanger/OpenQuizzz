@@ -57,7 +57,6 @@ class Game {
 			let name = Notification.Name (rawValue: "QuestionsLoaded")
 			let notification = Notification (name : name)
 			NotificationCenter.default.post(notification)
-			
 		}
 	}
 }
